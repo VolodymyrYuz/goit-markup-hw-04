@@ -96,6 +96,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  display: block;
 }
 
 .header-navigation-logo:hover,
@@ -129,12 +130,14 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  display: block;
 }
 
 .header-address-list {
   display: flex;
   gap: 40px;
   margin-left: 332px;
+  padding-top: 24px;
 }
 
 .header-menu-link:hover,
@@ -149,6 +152,7 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
 }
 
 .address-item-link:focus,
@@ -165,6 +169,15 @@ button {
   height: 600px;
   flex-shrink: 0;
   background-color: var(--NAVY-BLUE, #2e2f42);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background: var(--GREY, rgba(46, 47, 66, 0.7));*/
 }
 
 .hero-container {
@@ -178,6 +191,8 @@ button {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button-os {
@@ -197,8 +212,8 @@ button {
   min-width: 169px;
   height: 56px;
   border: none;
-  margin-left: 635px;
-  margin-right: 635px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-button-os:focus,
