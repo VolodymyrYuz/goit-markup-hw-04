@@ -234,6 +234,19 @@ button {
   gap: 24px;
 }
 
+.values-list-images {
+  display: block;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+  background: var(--CLOUD, #f4f4fd);
+  align-items: center;
+  justify-content: center;
+  padding: 24px 100px;
+}
+
 .values-list-item {
   width: calc((100% - 24px * 3) / 4);
 }
@@ -245,6 +258,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .values-list-text {
@@ -270,12 +284,16 @@ button {
 
 .team-list-item {
   width: calc((100% - 3 * 24px) / 4);
-
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  display: block;
+}
+
+.team-list-img {
+  align-items: center;
 }
 
 .team-personal-container {
@@ -308,8 +326,28 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
   text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-social-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.team-social-icon {
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 /*----------------------------------------*/
@@ -412,4 +450,38 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.footer-blocks-container {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-social-title {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-social-list {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0;
+}
+
+.footer-list-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
