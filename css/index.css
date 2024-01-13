@@ -145,6 +145,10 @@ button {
   position: relative;
 }
 
+.header-menu-link.first {
+  color: #404bbf;
+}
+
 .header-address-list {
   display: flex;
   gap: 40px;
@@ -304,6 +308,7 @@ button {
 
 .team-list-img {
   align-items: center;
+  width: 100%;
 }
 
 .team-personal-container {
@@ -427,6 +432,7 @@ button {
 .portfolio-list-img {
   background: url(<path-to-image>),
     lightgray -25.026px 0px / 125% 100% no-repeat;
+  width: 100%;
 }
 
 .portfolio-img-text {
