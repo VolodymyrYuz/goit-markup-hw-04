@@ -121,7 +121,7 @@ button {
   gap: 40px;
 }
 
-.header-menu-link-first:after {
+.header-menu-link-first::after {
   content: "";
   width: 48px;
   height: 4px;
