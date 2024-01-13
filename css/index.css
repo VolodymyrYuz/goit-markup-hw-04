@@ -121,7 +121,7 @@ button {
   gap: 40px;
 }
 
-.header-menu-item:first-child:after {
+.header-menu-link-first:after {
   content: "";
   width: 48px;
   height: 4px;
@@ -145,8 +145,15 @@ button {
   position: relative;
 }
 
-.header-menu-link.first {
+.header-menu-link-first {
   color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
+  position: relative;
 }
 
 .header-address-list {
