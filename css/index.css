@@ -410,6 +410,9 @@ button {
   position: relative;
   overflow: hidden;
 }
+.portfolio-img-conteiner:hover {
+  transform: translateY(0%);
+}
 
 .portfolio-list-img {
   background: url(<path-to-image>),
